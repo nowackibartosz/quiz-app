@@ -46,9 +46,9 @@ const Settings = () => {
         Quiz App
       </Typography>
       <form onSubmit={handleSubmit}>
-        <SelectField options={response.trivia_categories} label="category" />
-        <SelectField options={difficultyOptions} label="difficulty" />
-        <SelectField options={typeOptions} label="type" />
+        <SelectField options={response.trivia_categories} label="Category" />
+        <SelectField options={difficultyOptions} label="Difficulty" />
+        <SelectField options={typeOptions} label="Type" />
         <TextFieldComp />
         <Box mt={3} width="100%">
           <Button fullWidth variant="contained" type="submit">
