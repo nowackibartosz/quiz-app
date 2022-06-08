@@ -7,9 +7,9 @@ import {
 } from "./actionsTypes";
 
 const initialState = {
-  question_category: "kat",
-  question_difficulty: "dif",
-  question_type: "tru",
+  question_category: "",
+  question_difficulty: "",
+  question_type: "",
   amount_of_question: 50,
   score: 0,
 };
